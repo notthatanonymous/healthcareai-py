@@ -49,7 +49,7 @@ def main():
 
 
     print("\n\n\n")
-    print(trained_knn.metrics)
+    print(f"Score: {trained_knn.metrics['accuracy']}")
 
     # # View the ROC and PR plots
     # trained_knn.roc_plot()
