@@ -46,6 +46,9 @@ def main():
 
     # Train a KNN model
     trained_knn = classification_trainer.knn()
+
+
+    print("\n\n\n")
     print(trained_knn.metrics)
 
     # # View the ROC and PR plots
